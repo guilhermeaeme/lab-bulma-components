@@ -18,11 +18,11 @@ class SignUp extends Component {
 
           <FormField label="Password" type="password" placeholder="e.g ********" />
 
-          <CoolButton isSmall isDanger isRounded className="my-class">Button 1</CoolButton>
-          <CoolButton isSmall isSuccess>Button 2</CoolButton>
+          <CoolButton isSmall isDanger isRounded className="my-class">Reset</CoolButton>
+          <CoolButton isSmall isSuccess>Submit</CoolButton>
         </Container>
 
-        <p>&nbsp;</p>
+        <hr />
 
         <Container>
           <Message isInfo title="Hello World">
